@@ -1,0 +1,34 @@
+/* 
+*
+* form.css
+* author - Jamal
+* date - 11 octobar 2022
+*/
+
+.btn-container {
+    display: grid;
+    justify-content: center;
+}
+.space-btn {
+    background-color: #27a9a0;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 0;
+    width: 250px;
+}
+.shift-btn {
+    background-color: #27a9a0;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.primary-btn {
+    background-color: #27a9a0;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.delete-btn {
+    background-color: #27a9a0;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 70px;
+}

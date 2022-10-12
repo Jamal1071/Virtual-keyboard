@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div>
+                <p id="display"></p>
+            </div>
+            <!-- Keyboard - Starts -->
+            <div class="grid-num">
+                <button class="primary-btn" onclick="press(1)">1</button>
+                <button class="primary-btn" onclick="press(2)">2</button>
+                <button class="primary-btn" onclick="press(3)">3</button>
+                <button class="primary-btn" onclick="press(4)">4</button>
+                <button class="primary-btn" onclick="press(5)">5</button>
+                <button class="primary-btn" onclick="press(6)">6</button>
+                <button class="primary-btn" onclick="press(7)">7</button>
+                <button class="primary-btn" onclick="press(8)">8</button>
+                <button class="primary-btn" onclick="press(9)">9</button>
+                <button class="primary-btn" onclick="press(10)">10</button>
+                <button class="delete-btn" onclick="del()">Delete</button>
+            </div>
+            <div class="grid-q">
+                <button class="primary-btn" onclick="press(this.innerText)">Q</button>
+                <button class="primary-btn" onclick="press(this.innerText)">W</button>
+                <button class="primary-btn" onclick="press(this.innerText)">E</button>
+                <button class="primary-btn" onclick="press(this.innerText)">R</button>
+                <button class="primary-btn" onclick="press(this.innerText)">T</button>
+                <button class="primary-btn" onclick="press(this.innerText)">Y</button>
+                <button class="primary-btn" onclick="press(this.innerText)">U</button>
+                <button class="primary-btn" onclick="press(this.innerText)">I</button>
+                <button class="primary-btn" onclick="press(this.innerText)">O</button>
+                <button class="primary-btn" onclick="press(this.innerText)">P</button>
+            </div>
+            <div class="grid-a">
+                <button class="primary-btn" onclick="press(this.innerText)">A</button>
+                <button class="primary-btn" onclick="press(this.innerText)">S</button>
+                <button class="primary-btn" onclick="press(this.innerText)">D</button>
+                <button class="primary-btn" onclick="press(this.innerText)">F</button>
+                <button class="primary-btn" onclick="press(this.innerText)">G</button>
+                <button class="primary-btn" onclick="press(this.innerText)">H</button>
+                <button class="primary-btn" onclick="press(this.innerText)">J</button>
+                <button class="primary-btn" onclick="press(this.innerText)">K</button>
+                <button class="primary-btn" onclick="press(this.innerText)">L</button>
+            </div>
+            <div class="grid-z">
+                <button class="primary-btn" onclick="press(this.innerText)">Z</button>
+                <button class="primary-btn" onclick="press(this.innerText)">X</button>
+                <button class="primary-btn" onclick="press(this.innerText)">C</button>
+                <button class="primary-btn" onclick="press(this.innerText)">V</button>
+                <button class="primary-btn" onclick="press(this.innerText)">B</button>
+                <button class="primary-btn" onclick="press(this.innerText)">N</button>
+                <button class="primary-btn" onclick="press(this.innerText)">M</button>
+                <button class="shift-btn" onclick="shift()">Shift</button>
+            </div>
+            <div class="btn-container">
+                <button class="space-btn" onclick="press(' ')">space</button>
+            </div>
+            <!-- Keyboard - Ends -->
+        </div>
+    </div>
+</body>
+</html>

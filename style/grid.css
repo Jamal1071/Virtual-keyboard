@@ -1,0 +1,31 @@
+/* 
+*
+* grid.css
+* author - Jamal
+* date - 11 octobar 2022
+*/
+
+.grid-num {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(11, 55px);
+    grid-column-gap: 5px;
+}
+.grid-q {
+    display: grid;
+    grid-template-columns: repeat(10, 55px);
+    grid-column-gap: 5px;
+    justify-content: center;
+}
+.grid-a {
+    display: grid;
+    grid-template-columns: repeat(9, 55px);
+    grid-column-gap: 5px;
+    justify-content: center;
+}
+.grid-z {
+    display: grid;
+    grid-template-columns: repeat(8, 55px);
+    grid-column-gap: 5px;
+    justify-content: center;
+}
